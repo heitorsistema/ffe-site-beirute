@@ -1,16 +1,27 @@
+
+.textobeirute {
+  padding: 30px;
+}
 .h1 {
   text-align: center;
   background-color: yellow;
 }
-
-head,
-nav {
+.container-fluid {
+  background-color: rgb(199, 116, 116);
+}
+.jumbotron {
+  background-color: rgb(54, 53, 53);
+}
+.head, nav {
   text-align: center;
   background: yellow;
   margin: 20px 0;
   padding: 10px;
 }
-
+.carousel-inner img{
+  width: 100%;
+  height: 100%;
+}
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -19,42 +30,15 @@ nav {
   grid-template-areas: "imagem1 imagem1 texto1 texto1""imagem1 imagem1 texto1 texto1""texto2 texto2 imagem2 imagem2"
   "texto2 texto2 imagem2 imagem2""imagem3 imagem3 imagem4 imagem4""texto3 texto3 texto4 texto4"". . . .";
 }
-
-.imagem2 {
-  grid-area: imagem2;
-}
-
-.imagem2 img {
-  max-width: 400px;
-  max-height: 300px;
+.slides {
+  max-width: 1450px;
+  max-height: 600px;
   width: auto;
   height: auto;
-}
-
-.imagem1 {
-  grid-area: imagem1;
-}
-
-.texto1 {
-  grid-area: texto1;
-}
-
-.texto2 {
-  grid-area: texto2;
-}
-
-.imagem3 {
-  grid-area: imagem3;
-}
-
-.imagem4 {
-  grid-area: imagem4;
-}
-
-.texto3 {
-  grid-area: texto3;
-}
-
-.texto4 {
-  grid-area: texto4;
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
 }

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +7,7 @@
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
         integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="style.css">
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
@@ -20,60 +19,50 @@
         integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous">
     </script>
 </head>
-
 <body>
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#bs-example-navbar-collapse-1">
                         <span class="navbar-toggler-icon"></span>
-                    </button> <a class="navbar-brand" href="#">Inicio</a>
+                    </button> <a class="navbar-brand" href="index.html">Inicio</a>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="navbar-nav">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Vídeos<span class="sr-only">(current)</span></a>
+                                <a class="nav-link"
+                                    href="https://www.youtube.com/results?search_query=Explosão+em+Beirute">Vídeos<span
+                                        class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Imagens</a>
+                                <a class="nav-link"
+                                    href="https://www.google.com/search?q=explosão+beirute&tbm=isch&ved=2ahUKEwiJgsuL0IrrAhVFM7kGHX8PC40Q2-cCegQIABAA&oq=explosão+beirute&gs_lcp=CgNpbWcQAzIECCMQJzIECAAQA1CAQFiAQGDkQWgAcAB4AIABnAGIAZwBkgEDMC4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=rBYuX4n8AsXm5OUP_56s6Ag&bih=754&biw=1495&client=opera-gx&hl=pt-BR">Imagens</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="http://example.com"
-                                    id="navbarDropdownMenuLink" data-toggle="dropdown">Lista de Algo</a>
+                                    id="navbarDropdownMenuLink" data-toggle="dropdown">Links Úteis</a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="#">Alguma coisa aqui</a> <a class="dropdown-item"
-                                        href="#">Outra aqui</a> <a class="dropdown-item" href="#">Mais uma aqui</a>
+                                    <a class="dropdown-item"
+                                        href="https://pt.wikipedia.org/wiki/Wikipédia:Página_principal">WikiPedia</a> <a
+                                        class="dropdown-item" href="https://www.sinonimos.com.br/fofoca/">Sinônimos</a>
+                                    <a class="dropdown-item" href="https://dicionariocriativo.com.br/">Dicionário</a>
                                     <div class="dropdown-divider">
-                                    </div> <a class="dropdown-item" href="#">Final aqui</a>
+                                    </div> <a class="dropdown-item"
+                                        href="https://www.google.com/maps/@33.879412,35.0266231,8.52z?hl=pt-BR">Mapa do
+                                        Líbano</a>
                                 </div>
                             </li>
                         </ul>
                         <form class="form-inline">
                             <input class="form-control mr-sm-2" type="text" />
-                            <button class="btn btn-primary my-2 my-sm-0" type="submit">
+                            <button class="btn btn-primary btn-sm" type="submit">
                                 Buscar
                             </button>
                         </form>
-                        <ul class="navbar-nav ml-md-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Mais um link aqui<span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="http://example.com"
-                                    id="navbarDropdownMenuLink" data-toggle="dropdown">Outros aqui</a>
-                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="#">Mais aqui, links</a> <a class="dropdown-item"
-                                        href="#">Talvez eu tiro isso aqui</a> <a class="dropdown-item" href="#">Muitos links né</a>
-                                    <div class="dropdown-divider">
-                                    </div> <a class="dropdown-item" href="#">Chega de links por hoje</a>
-                                </div>
-                            </li>
-                        </ul>
                     </div>
                 </nav>
-                <div class="carousel slide" id="carousel-152160">
+                <div class="carousel slide" id="carousel-152160" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-slide-to="0" data-target="#carousel-152160">
                         </li>
@@ -84,41 +73,44 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item">
-                            <img class="d-block w-100" alt="Carousel Bootstrap First"
-                                src="beirute.jpg" />
+                            <img class="slides" alt="Carousel Bootstrap First" src="noiva-beirute.jpeg" />
                             <div class="carousel-caption">
-                                <h4>
-                                    Bombeiros retirando sobreviventes da Explosão
-                                </h4>
-                                <p>
-                                    Nesta imagem vemos um sobrevivente da Explosão, foi soterrado e com ajuda dos Bombeiros 
-                                    conseguiu sair com vida com sérios ferimentos.
-                                </p>
+                                <h2 class="text-whiter"><kbd>
+                                        A noiva Israa Seblani posa no local onde estava quando foi atingida pela
+                                        explosão em Beirute</kbd>
+                                    </h4>
+                                    <p class="bg-dark text-white">
+                                        "Durante a explosão não sei dizer o que aconteceu. Me senti muito triste", disse
+                                        Israa. "Eu fiquei chocada, pensei o que aconteceu, vou morrer? Como vou morrer?"
+                                    </p>
                             </div>
                         </div>
                         <div class="carousel-item active">
-                            <img class="d-block w-100" alt="Carousel Bootstrap Second"
-                                src="bombeiros.jpeg" />
+                            <img class="img-fluid" alt="Carousel Bootstrap Second" src="bombeiros.jpeg" />
                             <div class="carousel-caption">
-                                <h4>
-                                    Bombeiros retirando sobreviventes da Explosão
-                                </h4>
-                                <p>
-                                    Nesta imagem vemos um sobrevivente da Explosão, foi soterrado e com ajuda dos Bombeiros 
-                                    conseguiu sair com vida com sérios ferimentos.
-                                </p>
+                                <h3 class="text-danger"><kbd>
+                                        Bombeiros retirando sobreviventes da Explosão</kbd>
+                                    </h4>
+                                    <p class="bg-danger text-white">
+                                        Nesta imagem um sobrevivente ficou gravemente ferido pela Explosão, foi
+                                        soterrado e
+                                        com ajuda dos Bombeiros
+                                        conseguiu sair com vida com sérios ferimentos.
+                                    </p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" alt="Carousel Bootstrap Third"
-                                src="explosão.jpg" />
+                            <img class="slides"
+                                href="https://www1.folha.uol.com.br/mundo/2020/08/explosao-em-beirute-ocorre-no-pior-momento-da-historia-recente-do-pais.shtml"
+                                alt="Carousel Bootstrap Third" src="ruadestruia.jpg" />
                             <div class="carousel-caption">
-                                <h4>
-                                    Third Thumbnail label
+                                <h4 class="text-danger"><kbd>
+                                        Explosão em Beirute ocorre no pior momento da história recente do país</kbd>
                                 </h4>
                                 <p>
-                                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi
-                                    porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                    Líbano é quase um Estado falido, disse chanceler que renunciou; incidente evoca
+                                    terror
+                                    da guerra civil
                                 </p>
                             </div>
                         </div>
@@ -127,73 +119,110 @@
                         class="carousel-control-next" href="#carousel-152160" data-slide="next"><span
                             class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
                 </div>
-                <div class="grid-container">
-                    <div class="imagem2"><img src="explosao.png"/> </div>
-                    <div class="imagem1"></div>
-                    <div class="texto1"></div>
-                    <div class="texto2">Mapa da Imagem </div>
-                    <div class="imagem3"></div>
-                    <div class="imagem4"></div>
-                    <div class="texto3"></div>
-                    <div class="texto4"></div>
-                  </div>
-                <div class="jumbotron">
-                    <h2>
-                        Hello, world!
-                    </h2>
+                <div class="textobeirute">
                     <p>
-                        This is a template for a simple marketing or informational website. It includes a large callout
-                        called the hero unit and three supporting pieces of content. Use it as a starting point to
-                        create something more unique.
-                    </p>
-                    <p>
-                        <a class="btn btn-primary btn-large" href="#">Learn more</a>
+                        <strong>Beirute</strong> é a capital e maior cidade do Líbano. Segundo
+                        estimativas de 2007, cerca de 2 milhões de habitantes moram na Grande Beirute. Localizada em uma
+                        península no Mediterrâneo, Beirute é o maior e principal porto marítimo do país.
+
+                        <small> A primeira menção desta metrópole é encontrada nas Cartas de Amarna, feitas pelos
+                            egípcios
+                            antigos, que datam do século XV a.C.. A cidade é habitada continuamente desde então. O rio
+                            Beirute percorre toda a cidade.</small>
+
+                        Beirute é sede do governo libanês e desempenha um papel central na economia local, sendo que
+                        muitos bancos e empresas mantém suas sedes no centro da cidade. Após a destrutiva Guerra Civil
+                        Libanesa, a paisagem cultural de Beirute sofreu uma grande reconstrução. Um centro
+                        financeiro local, a capital libanesa é classificada como uma cidade global beta.
                     </p>
                 </div>
             </div>
         </div>
+        <div class="jumbotron">
+            <h2 class="text-white">
+                A explosão de Beirute
+            </h2>
+            <p class="text-white">
+                Usando matemática pioneira dos anos 1940 para inferir o efeito da bomba atômica, especialistas podem
+                analisar vídeos de uma onda de choque para obter estimativas aproximadas da energia total de uma
+                explosão e quanto material explodiu. Ao comparar o tamanho da explosão contra prédios próximos, o vídeo
+                do incidente de Beirute mostra que em um oitavo de segundo após a explosão acontecer, sua onda de choque
+                esférica cresceu para aproximadamente 244 metros de largura.
+            </p>
+            <p class="text-white">
+                Medida usando esse método, espectadores estimaram que a explosão foi equivalente a aproximadamente 400 a
+                3 mil toneladas de TNT, um material explosivo que também é usado como uma unidade para medir o quão
+                destrutivas são as explosões. Embora Jeffrey Lewis, um especialista em controle de armas do Instituto de
+                Estudos Internacionais de Middlebury, calcule que provavelmente esteja perto de 400 toneladas. Por outro
+                lado, a bomba atômica lançada em Hiroshima, Japão, em 1945 teve o efeito de pelo menos 13 mil toneladas
+                de TNT.
+            </p>
+            <p class="text-white">
+                Os cálculos da explosão sugerem que no nível do mar, uma explosão como a de Beirute precisaria de cerca
+                de mil toneladas de nitrato de amônio. Dado que esses cálculos de retorno incluem uma ampla margem de
+                erro, a estimativa é consistente com as 2.750 toneladas que, segundo autoridades libanesas, foram
+                armazenadas pelo porto. Ou, esta discrepância pode significar que o material dentro do armazém não era
+                nitrato de amônio puro, e que algum outro composto estava envolvido na explosão.
+            </p>
+            <p>
+                <a class="btn btn-primary btn-large"
+                    href="https://www.nationalgeographicbrasil.com/ciencia/2020/08/libano-explosao-mortal-explosivo-nitrato-de-amonio-catastrofe-beirute-quimica">Learn
+                    more</a>
+            </p>
+        </div>
         <div class="row">
             <div class="col-md-4">
-                <h2>
-                    Heading
-                </h2>
+                <iframe width="400" height="300" src="https://www.youtube.com/embed/40QYyHug_to" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <h3>
+                    Explosão no Líbano: BBC visita epicentro do desastre no porto de Beirute
+                </h3>
                 <p>
-                    Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
-                    mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna
-                    mollis euismod. Donec sed odio dui.
+                    A equipe da BBC Arabic, o serviço árabe da BBC, visitou o local devastado pela megaexplosão
+                    ocorrida na terça-feira em Beirute, capital do Líbano. Dezenas de pessoas morreram e milhares
+                    ficaram feridas após o desastre no porto da cidade. Equipes de resgate ainda buscam por
+                    desaparecidos no local.
                 </p>
                 <p>
-                    <a class="btn" href="#">View details »</a>
-                </p>
-            </div>
-            <div class="col-md-4">
-                <h2>
-                    Heading
-                </h2>
-                <p>
-                    Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
-                    mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna
-                    mollis euismod. Donec sed odio dui.
-                </p>
-                <p>
-                    <a class="btn" href="#">View details »</a>
+                    <a class="btn btn-primary btn-large"
+                        href="https://www.bbc.com/portuguese/internacional-53688549">Leia mais Sobre »</a>
                 </p>
             </div>
             <div class="col-md-4">
-                <h2>
-                    Heading
-                </h2>
+                <iframe width="400" height="300" src="https://www.youtube.com/embed/qPkIobp0niE" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <h3>
+                    Veja as imagens de Beirute após explosão que deixou mais de cem mortos
+                </h3>
                 <p>
-                    Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
-                    mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna
-                    mollis euismod. Donec sed odio dui.
+                    Imagens aéreas mostram a área do porto em Beirute, a capital do Líbano, após a grande explosão que
+                    deixou mais de 100 mortos e 4 mil feridos. Raio de destruição passou de 10 quilômetros.
                 </p>
                 <p>
-                    <a class="btn" href="#">View details »</a>
+                    <a class="btn btn-primary btn-large" href="https://globoplay.globo.com/v/8761013/">Leia mais Sobre
+                        »</a>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <iframe width="400" height="300" src="https://www.youtube.com/embed/qhkvmUTZ6-M"" frameborder=" 0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <h3>
+                    Explosão em Beirute: tudo o que se sabe
+                </h3>
+                <p>
+                    Entenda um pouco mais sobre a megaexplosão que ocorreu em Beirute, capital do Líbano, na terça-feira
+                    (4). A explosão abalou várias áreas da capital, quebrando janelas e portas, deixando mais de cem
+                    mortos e milhares de feridos.
+                </p>
+                <p>
+                    <a class="btn btn-primary btn-large" href="https://www.youtube.com/watch?v=qhkvmUTZ6-M">Leia mais
+                        Sobre »</a>
                 </p>
             </div>
         </div>
     </div>
 </body>
-
 </html>
